@@ -22,6 +22,7 @@
 } 
 .wrap {
   width: 100%;
+  min-width: 1200px;
   margin: 0 auto;
 }
 .wrap .header {
@@ -467,17 +468,5 @@
   line-height: 60px;
   
 }
-@media (min-width:320px) and (max-width: 414px){
-  html,body {
-    max-width: 414px;
-    min-width: 320px; 
-  }
-  .wrap .container .section1 h2 {
-    font-size: 16px;
-  }
-  .wrap .container .section1 .QR {
-    font-size: 14px;
-  }
 
-}
 
