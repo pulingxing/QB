@@ -429,6 +429,7 @@
 }
 .wrap .footer .container .rightBox span {
   width: 264px;
+  /*text-align: center;*/
   display: block;
   margin: 20px 0;
   padding-left: 40px;
@@ -457,9 +458,26 @@
 }
 .wrap .footer .copyright .content{
   text-align: center;
+  /*width: 75%;
+
+  margin: 0 auto;*/
 }
 .wrap .footer .copyright p {
   display: block;
   line-height: 60px;
   
 }
+@media (min-width:320px) and (max-width: 414px){
+  html,body {
+    max-width: 414px;
+    min-width: 320px; 
+  }
+  .wrap .container .section1 h2 {
+    font-size: 16px;
+  }
+  .wrap .container .section1 .QR {
+    font-size: 14px;
+  }
+
+}
+
